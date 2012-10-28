@@ -16,3 +16,65 @@
 @import 'bootstrap';
 @import 'bootstrap-responsive';
 @import 'bourbon';
+
+body {
+  background: url("/assets/gray_tile.png");
+}
+
+
+
+header {
+  background: #000;
+  height: 100px;
+  border-bottom: 10px solid #464646;
+
+  
+  ul {
+    margin-top: 30px;
+    
+    li {
+      float: left;
+      margin-right: 20px;
+      list-style-type: none;
+      
+      a {
+        color: white;
+        background: #464646;
+        padding: 5px 20px;
+        text-decoration: none;
+        @include border-radius(10px);
+        
+        &:hover {
+          background: #ccc;
+        }
+        
+      }
+      
+    }
+    
+  }
+  
+}
+
+
+#logo_container {
+  background: url("/assets/logo_glow.png");
+  width: 618px;
+  height: 355px;
+  text-align: center;
+  margin: auto;
+  
+  img {    
+    margin: auto;  
+    margin-top: 35px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
